@@ -56,7 +56,7 @@ python3 main.py -call 47 5 -call 52 7 -call 55 12 -call 60 2 -call 80 9 -call 12
 |     0     |                                    [1572, 1017, 300]                                    |             42              |        3101.91        |
 |     1     |                                [1000, 60, 900, 642, 842]                                |             28              |        3104.3         |
 |     2     |                [244, 442, 440, 120, 80, 508, 532, 1014, 256, 52, 47, 55]                |             119             |        3461.71        |
-
-<img src="./img/seq.png" width="150" height="210"><img src="./img/path.png" width="150" height="210">
-
+<center>
+<img src="./img/seq.png" width="150" height="210"> <img src="./img/path.png" width="150" height="210">
+</center>
 The left is a sequence of locations and the right is a detailed path.
