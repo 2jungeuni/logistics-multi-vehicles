@@ -8,9 +8,9 @@ Select the largest quantity possible.
 1. There are N vehicles.
 2. A location must be visited only once.
 3. There is no depot (It can start from anywhere and arrive anywhere).
-4. There is a working time for deliver.
+4. There is a working time for each deliver.
 5. There is a capacity of logistics vehicle.
-6. A penalty is given for the number of locations that could not visited.
+6. A penalty is given for the number of locations that cannot visit.
 
 ### Solver requirements
 * Gurobipy version: 10.0.3
