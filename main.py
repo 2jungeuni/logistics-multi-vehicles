@@ -113,7 +113,6 @@ def optimize(data, working_time=None, capacity=None, penalty=None):
 
     # edge
     e_vars = m.addVars(d.keys(), obj=d, vtype=GRB.BINARY, name="e")
-
     # prize
     p_vars = m.addVars(p.keys(), obj=p, vtype=GRB.BINARY, name="p")
 
@@ -192,7 +191,6 @@ def optimize(data, working_time=None, capacity=None, penalty=None):
 
     # status
     logger.info("Status of solution is " + str(status_dict[m.status]))
-
     e_vals = m.getAttr('x', e_vars)
 
     sol = {}

@@ -59,4 +59,4 @@ python3 main.py -call 47 5 -call 52 7 -call 55 12 -call 60 2 -call 80 9 -call 12
 <p align="center">
 <img src="./img/seq.png" width="150" height="210"> <img src="./img/path.png" width="150" height="210">
 </p>
-The left is a sequence of locations and the right is a detailed path.
+The left is sequences of locations and the right is detailed paths.
